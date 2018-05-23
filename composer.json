@@ -1,24 +1,29 @@
 {
-    "name": "mongoosestudio/mnggeo",
-    "description": "Mongoose Geo Library",
-    "keywords": ["mongosestudio", "library", "geo"],
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Marcel Rojas Abarca",
-            "email": "mrojas@mongoosestudio.cl"
-        }
-    ],
-    "type": "project",
-    "require": {
-		"php": ">=5.4"
-    },
-	"require-dev": {
-		"phpunit/phpunit": "5.2.*"
-    },
-	"autoload": {
-        "psr-4": {
-            "MongooseStudio\\MngGeo\\": "src/"
-        }
+  "name": "mongoosestudio/mnggeo",
+  "description": "Mongoose Geo Library",
+  "keywords": [
+    "mongosestudio",
+    "library",
+    "geo"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marcel Rojas Abarca",
+      "email": "mrojas@mongoosestudio.cl"
     }
+  ],
+  "type": "project",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MongooseStudio\\MngGeo\\": "src/"
+    }
+  }
 }
