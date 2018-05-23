@@ -13,8 +13,8 @@
       "email": "mrojas@mongoosestudio.cl"
     }
   ],
-  "type": "project",
-  "minimum-stability": "dev",
+  "type": "library",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=5.4"
   },
