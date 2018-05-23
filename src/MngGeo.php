@@ -38,7 +38,7 @@ class MngGeo {
      */
     public static function dec2Time($dec) {
         $vars = explode(".", $dec);
-        $deg = $vars[0];
+        $deg = doubleval($vars[0]);
         $tempma = "0." . $vars[1];
 
         $tempma = $tempma * 3600;
